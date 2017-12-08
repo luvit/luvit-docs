@@ -132,7 +132,7 @@ Sync version of mkdtemp
 
 ## fs.rmdir(path, callback)
 
-It's like `rm -rf` but in luvit!
+Removes a directory
 
 ## fs.rmdirSync(path)
 
