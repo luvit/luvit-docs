@@ -176,7 +176,7 @@ Extendable initializer for the Transform class.
 ### Transform:_transform(chunk, cb)
 
 The internal transform method. You must define this in your child class. 
-E.g. Implement a passthrough filter aka a very fancy way to print hello world
+E.g. implement a passthrough filter aka a very fancy way to print hello world
 ```
 local Transform = require('stream').Transform
 local Transformer = Transform:extend()

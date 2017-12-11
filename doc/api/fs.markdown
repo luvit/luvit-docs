@@ -132,7 +132,7 @@ Sync version of mkdtemp
 
 ## fs.rmdir(path, callback)
 
-It's like `rm -rf` but in luvit!
+Removes a directory
 
 ## fs.rmdirSync(path)
 
@@ -266,7 +266,7 @@ Tests a user's permissions for the file specified by path. mode is an optional i
 
 Asynchronous fchmod(2). No arguments other than a possible exception are given to the completion callback.
 
-## fs.cmodSync(fd, mode)
+## fs.chmodSync(fd, mode)
 
 Sync chmod.
 
@@ -305,7 +305,7 @@ This new name may be used exactly as the old one for any operation; both names r
 
 Sync link
 
-## fs.symink(path, newPath[, option], callback)
+## fs.symlink(path, newPath[, option], callback)
 
 Creates soft link instead of a hard link as in link
 
@@ -396,7 +396,7 @@ You can set the path to the file and options here. Options is a table with the f
 
 ### WriteStream:open(callback)
 
-Callback to fire when the write stream is opened. This callback gets no arguments
+Callback to fire when the write stream is opened. This callback gets no arguments.
 An open event is also emitted with the file descriptor when the file is opened
 
 ### WriteStream:_write(data, callback)
@@ -413,7 +413,7 @@ Closes the write stream
 
 ## fs.createWriteStream(path, options)
 
-Creates and returns a new write stream, that is an instance of the afore mentioned WriteStream class with the given path and options
+Creates and returns a new write stream, that is an instance of the aforementioned WriteStream class with the given path and options
 
 ## Class: fs.WriteStreamSync
 
@@ -421,7 +421,7 @@ A synchronous version of the WriteStream class. Extends WriteStream
 
 ## Class: fs.ReadStream
 
-A parent class for creating readable streams from files
+A parent class for creating readable streams from files.
 You should extend the following class methods in your extended instance
  
 ### ReadStream:initialize(path, options)
@@ -437,7 +437,7 @@ Options table key values:
 
 ### ReadStream:open(callback)
 
-Callback to fire when the read stream is opened. This callback gets no arguments
+Callback to fire when the read stream is opened. This callback gets no arguments.
 An open event is also emitted with the file descriptor when the file is opened
 
 ### ReadStream:_read(n)

@@ -4,7 +4,7 @@ Node-style url codec for luvit
 
 ## url.parse(url[, parseQueryString])
 
-Takes a url string, returns an object
+Takes a url string, returns an object.
 Optional second argument of type bool. Pass in true if you'd like to pass the query part of the url through the
 querystring modules parse function.
 

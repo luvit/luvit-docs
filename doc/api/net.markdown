@@ -8,7 +8,7 @@ Node-style net client and server module for luvit
 
 ### Socket:initialize(options)
 
-The Socket initializer called when an instance is generated with Socket:new()
+The Socket initializer called when an instance is generated with Socket:new().
 You can pass in a number to options and the module will try to guess if a handler of type TCP or PIPE is required, or specify a handler
 like so: `Socket:new({handle = 'Valid handle type'})`
 

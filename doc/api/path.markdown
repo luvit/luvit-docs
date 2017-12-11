@@ -66,7 +66,7 @@ Checks if the path follows Microsofts universal naming convention
 
 ## path.isDriveRelative(filepath)
 
-Drive-relative paths are unique to Windows and use the format <letter>:filepath
+Drive-relative paths are unique to Windows and use the format &lt;letter>:filepath
 
 ## path.normalizeSeparators(filepath)
 

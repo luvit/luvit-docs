@@ -17,7 +17,7 @@ This simple web server written in Luvit responds with Hello World for every requ
     
     print('Server running at http://127.0.0.1:1337/')
 
-To run the server, put the code into a file called `example.js` and execute
+To run the server, put the code into a file called `server.lua` and execute
 it with using luvit
 
     > luvit server.lua

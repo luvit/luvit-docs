@@ -73,7 +73,7 @@ emitter:on('end', utils.bind(some_func, emitter))
 emitter:emit('end', 'a', 'b', 'c')
 ```
 
-### Emitter:on(name. callback)
+### Emitter:on(name, callback)
 
 Adds an event listener (`callback`) for the named event `name`.
 

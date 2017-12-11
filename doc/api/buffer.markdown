@@ -10,7 +10,7 @@ Main buffer class
 
 ### Buffer:inspect()
 
-Inspect a buffer. Returns a string of hexes like <Buffer Hexes>
+Inspect a buffer. Returns a string of hexes like &lt;Buffer Hexes>
 
 ### Buffer:readUInt8(offset)
 
